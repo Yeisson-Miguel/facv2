@@ -1,0 +1,8 @@
+body {
+  background: white;
+}
+
+.centrar {
+  margin: 10px auto;
+  display: block;
+}

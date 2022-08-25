@@ -1,0 +1,10 @@
+cmake==3.16.3
+numpy==1.19.5
+opencv-contrib-python==4.5.3.56
+opencv-python===4.5.5.62
+opencv-python-headless==4.1.2.30
+mediapipe==0.8.9.1
+cvzone==1.5.5
+tensorflow==2.7.0
+scikit-learn==0.24.2
+Flask==2.0.3

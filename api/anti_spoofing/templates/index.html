@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anti-Spoofing</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='css/main.css')}}">
+    <link rel="icon" href="../static/img/icon.png">
+</head>
+<body>
+   <h1>MIRE A LA CAMARA {{id}}</h1> 
+   <img id="video_feed" class="centrar" src="{{ url_for('video_feed',id=id,host=host_app,port=port_app)}}">
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<!--<script src="../static/javascript/observableJS.js"></script>-->
+<script>
+    const host = "{{host}}";
+    const port = "{{port}}";
+    const id = "{{id}}";
+</script>
+<script src="../static/javascript/observableJS.js"></script>
+</html>
